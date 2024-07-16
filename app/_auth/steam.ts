@@ -85,7 +85,7 @@ const verifyAssertion = async (url: string): Promise<string | null> => {
 }
 
 const getProviderStyle = () => ({
-    logo: '',
+    logo: 'https://raw.githubusercontent.com/signal451/steam-nextauth/693f5ec2cdb8fcc441ff6f497010ee3febbc3a64/asset/steam-logo-white.svg',
     bg: '#121212',
     text: '#fff',
     bgDark: '#000',
