@@ -85,6 +85,7 @@ const verifyAssertion = async (url: string): Promise<string | null> => {
 }
 
 const getProviderStyle = () => ({
+    logo: '',
     bg: '#121212',
     text: '#fff',
     bgDark: '#000',
